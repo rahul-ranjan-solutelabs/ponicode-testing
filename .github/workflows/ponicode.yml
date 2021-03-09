@@ -12,7 +12,7 @@ jobs:
           fetch-depth: 0
 
       # Unit tests your functions with Ponicode action
-      - uses: ponicode/unit-testing-action@master
+      - uses: ponicode/unit-testing-action@0.0.1-christmas
         id: ponicode
         with:
           repoPath: ./
