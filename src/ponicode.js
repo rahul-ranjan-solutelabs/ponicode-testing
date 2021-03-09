@@ -60,12 +60,12 @@ function calculateCommissionJs(volume) {
 //     }
 // }
 
-// Regex Inferer
-function isEmailValidJs(email) {
-  if (typeof email !== "string") {
-    return false;
-  }
-  const unicodePattern = /[^\x00-\x7F]/;
-  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  return !unicodePattern.test(email) && re.test(email.toLowerCase());
-}
+// // Regex Inferer
+// function isEmailValidJs(email) {
+//   if (typeof email !== "string") {
+//     return false;
+//   }
+//   const unicodePattern = /[^\x00-\x7F]/;
+//   var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+//   return !unicodePattern.test(email) && re.test(email.toLowerCase());
+// }
