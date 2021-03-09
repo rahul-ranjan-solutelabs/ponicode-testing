@@ -1,0 +1,13 @@
+{
+  "name": "main",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "init-ponicode": "npm ci"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "rewire": "^5.0.0",
+    "@ponicode/cli": "0.0.1-18"
+  }
+}
